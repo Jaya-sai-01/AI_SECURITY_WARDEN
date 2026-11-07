@@ -1,0 +1,94 @@
+
+# ==============================
+# Python Virtual Environments
+# ==============================
+venv/
+.venv/
+env/
+ENV/
+
+# ==============================
+# Python Cache Files
+# ==============================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# ==============================
+# Environment Variables / Secrets
+# ==============================
+.env
+.env.*
+!.env.example
+
+# ==============================
+# IDE and Editor Files
+# ==============================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ==============================
+# Operating System Files
+# ==============================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ==============================
+# Logs and Temporary Files
+# ==============================
+*.log
+*.tmp
+*.bak
+
+# ==============================
+# Testing and Coverage
+# ==============================
+.pytest_cache/
+.coverage
+htmlcov/
+
+# ==============================
+# Build and Distribution
+# ==============================
+build/
+dist/
+*.egg-info/
+
+# ==============================
+# Jupyter Notebook
+# ==============================
+.ipynb_checkpoints/
+
+# ==============================
+# Node.js / Frontend
+# ==============================
+node_modules/
+frontend/node_modules/
+frontend/dist/
+
+# ==============================
+# Data Files (Optional)
+# Uncomment if you don't want to upload datasets
+# ==============================
+# *.csv
+# *.xlsx
+# *.zip
+
+# ==============================
+# Model Files (Optional)
+# Uncomment only if models should not be uploaded
+# ==============================
+# *.h5
+# *.keras
+# *.pt
+# *.pth
+# *.pkl
+
+# ==============================
+# Keep project documentation and images
+# ==============================
+# Do not ignore *.png globally.
+# Keep reports, diagrams and screenshots on GitHub.
